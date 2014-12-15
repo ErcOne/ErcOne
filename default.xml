@@ -15,17 +15,29 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="ErcOne/android_art" remote="github" revision="lp5.0"  />
+  <!-- and -->
+  <!-- ErcOne -->
+  <project path="art" name="ErcOne/android_art" remote="github" revision="lp5.0"  />
   <project path="bionic" name="ErcOne/android_bionic" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="bootable/recovery" name="ErcOne/bootable_recovery" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="development" name="ErcOne/android_development" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -45,7 +57,10 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/aac" name="ErcOne/android_external_aac" remote="github" revision="lp5.0" />
+  <!-- and -->
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
@@ -59,13 +74,21 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/busybox" name="ErcOne/android_external_busybox" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/chromium_org" name="ErcOne/android_external_chromium_org" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -138,7 +161,11 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/icu" name="ErcOne/android_external_icu" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
@@ -152,7 +179,11 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/jpeg" name="ErcOne/android_external_jpeg" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -179,7 +210,11 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/libsepol" name="ErcOne/android_external_libsepol" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
@@ -187,7 +222,11 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/libxml2" name="ErcOne/android_external_libxml2" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -234,9 +273,17 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/sepolicy" name="ErcOne/android_external_sepolicy" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/skia" name="ErcOne/android_external_skia" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -251,7 +298,11 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/tinyalsa" name="ErcOne/android_external_tinyalsa" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -260,15 +311,23 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="external/wpa_supplicant_8" name="ErcOne/android_external_wpa_supplicant_8" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="frameworks/av" name="ErcOne/frameworks_av" remote="github" revision="lp5.0" />
   <project path="frameworks/base" name="ErcOne/frameworks_base" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -277,14 +336,22 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="frameworks/native" name="ErcOne/frameworks_native" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="frameworks/opt/datetimepicker" name="ErcOne/frameworks_opt_datetimepicker" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
@@ -294,8 +361,12 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="frameworks/opt/telephony" name="ErcOne/frameworks_opt_telephony" remote="github" revision="lp5.0" />
   <project path="frameworks/opt/timezonepicker" name="ErcOne/frameworks_opt_timezonepicker" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -305,8 +376,12 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="hardware/broadcom/libbt" name="ErcOne/hardware_broadcom_libbt" remote="github" revision="lp5.0" />
   <project path="hardware/broadcom/wlan" name="ErcOne/hardware_broadcom_wlan" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -322,10 +397,16 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="hardware/libhardware" name="ErcOne/hardware_libhardware" remote="github" revision="lp5.0" />
   <project path="hardware/libhardware_legacy" name="ErcOne/hardware_libhardware_legacy" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="hardware/qcom/audio" name="ErcOne/hardware_qcom_audio" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/bt" name="ErcOne/hardware_qcom_bt" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/camera" name="ErcOne/hardware_qcom_camera" remote="github" revision="lp5.0" />
@@ -333,14 +414,22 @@
   <project path="hardware/qcom/gps" name="ErcOne/hardware_qcom_gps" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/keymaster" name="ErcOne/hardware_qcom_keymaster" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/media" name="ErcOne/hardware_qcom_media" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="hardware/qcom/power" name="ErcOne/hardware_qcom_power" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-<project path="hardware/qcom/wlan" name="ErcOne/hardware_qcom_wlan" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- ErcOne -->
+  <project path="hardware/qcom/wlan" name="ErcOne/hardware_qcom_wlan" remote="github" revision="lp5.0" />
   <project path="hardware/ril" name="ErcOne/hardware_ril" remote="github" revision="lp5.0" />
   <project path="hardware/samsung_slsi/exynos5" name="ErcOne/hardware_samsung_slsi_exynos5" remote="github" revision="lp5.0" />
   <project path="hardware/ti/omap3" name="ErcOne/hardware_ti_omap3" remote="github" revision="lp5.0" />
@@ -348,42 +437,78 @@
   <project path="hardware/ti/wlan" name="ErcOne/hardware_ti_wlan" remote="github" revision="lp5.0" />
   <project path="hardware/ti/wpan" name="ErcOne/hardware_ti_wpan" remote="github" revision="lp5.0" />
   <project path="libcore" name="ErcOne/android_libcore" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/Bluetooth" name="ErcOne/packages_apps_Bluetooth" remote="github" revision="lp5.0" />
   <project path="packages/apps/Browser" name="ErcOne/packages_apps_Browser" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/Calendar" name="ErcOne/packages_apps_Calendar" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+ <!-- and -->
+ <!-- ErcOne -->
   <project path="packages/apps/Camera2" name="ErcOne/packages_apps_Camera2" remote="github" revision="lp5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="ErcOne/packages_apps_CellBroadcastReceiver" remote="github" revision="lp5.0" />
+ <!-- and -->
+ <!-- aosp -->
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
+ <!-- and -->
+ <!-- ErcOne -->
   <project path="packages/apps/Contacts" name="ErcOne/packages_apps_Contacts" remote="github" revision="lp5.0" />
   <project path="packages/apps/ContactsCommon" name="ErcOne/packages_apps_ContactsCommon" remote="github" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="ErcOne/packages_apps_DeskClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="ErcOne/packages_apps_Dialer" remote="github" revision="lp5.0" />
   <project path="packages/apps/Email" name="ErcOne/packages_apps_Email" remote="github" revision="lp5.0" />
   <project path="packages/apps/Exchange" name="ErcOne/packages_apps_Exchange" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/Gallery2" name="ErcOne/packages_apps_Gallery2" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/InCallUI" name="ErcOne/packages_apps_InCallUI" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/Mms" name="ErcOne/packages_apps_Mms" remote="github" revision="lp5.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/PackageInstaller" name="ErcOne/packages_apps_PackageInstaller" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/Settings" name="ErcOne/packages_apps_Settings" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -391,26 +516,46 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/apps/UnifiedEmail" name="ErcOne/packages_apps_UnifiedEmail" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/inputmethods/LatinIME" name="ErcOne/packages_inputmethods_LatinIME" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/providers/ContactsProvider" name="ErcOne/packages_providers_ContactsProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/DownloadProvider" name="ErcOne/packages_providers_DownloadProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/MediaProvider" name="ErcOne/packages_providers_MediaProvider" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/providers/TelephonyProvider" name="ErcOne/packages_providers_TelephonyProvider" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="packages/services/Mms" name="ErcOne/packages_services_Mms" remote="github" revision="lp5.0" />
   <project path="packages/services/Telecomm" name="ErcOne/packages_services_Telecomm" remote="github" revision="lp5.0" />
   <project path="packages/services/Telephony" name="ErcOne/packages_services_Telephony" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -473,13 +618,25 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="system/core" name="ErcOne/android_system_core" remote="github" revision="lp5.0" />
   <project path="system/extras" name="ErcOne/android_system_extras" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="system/netd" name="ErcOne/android_system_netd" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="system/security" name="platform/system/security" groups="pdk" />
+  <!-- and -->
+  <!-- ErcOne -->
   <project path="system/vold" name="ErcOne/android_system_vold" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!-- aosp -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -494,8 +651,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
-<project path="platform_manifest" name="ErcOne/platform_manifest" remote="github" revision="lp5.0" />
+  <!-- and -->
+  <!--project path="platform_manifest" name="ErcOne/platform_manifest" remote="github" revision="lp5.0" /-->
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="ErcOne/vendor_slim" remote="github" revision="lp5.0" />
